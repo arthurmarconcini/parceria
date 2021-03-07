@@ -1,0 +1,38 @@
+header {
+    position: sticky !important;
+    top: 0;      
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #020201de;
+    padding: 0.5em 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid orange;
+    color: rgba(243, 237, 200, 0.836);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 5em;
+    margin-right: 0.7em;
+}
+
+.logo h1 {
+    font-weight: 600;
+    color: #fff;
+}
