@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/glider.css">    
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet"> 
@@ -28,6 +31,19 @@
                 <a href="#box3">Contatos</a>
             </div>
         </nav>
+        <div class="glider-contain">
+            <div class="slides">
+              <div class="slide">1</div>
+              <div class="slide">2</div>
+              <div class="slide">3</div>
+              <div class="slide">4</div>
+              <div class="slide">5</div>
+            </div>
+          
+            <button aria-label="Previous" class="glider-prev">«</button>
+            <button aria-label="Next" class="glider-next">»</button>
+            <div role="tablist" class="dots"></div>
+        </div>
     </header>
     <main>
         <div id="box1">
@@ -39,6 +55,9 @@
         <div id="box3">
             <h1>Contatos</h1>
         </div>
-    </main>    
+    </main> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="./assets/js/carousel.js"></script>
 </body>
 </html>

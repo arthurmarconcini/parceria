@@ -1,0 +1,22 @@
+.glider-contain{
+    max-width: 80%;
+    
+}
+
+.slides {
+    border: 2px solid #a89cc8;
+    overflow: hidden;
+}
+
+.slide {
+    align-items: center;
+    color: lightgrey;
+    display: flex;
+    font-size:200%;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.slideno:nth-child(1) {
+    border-left: 1px solid #a89cc8;
+}
