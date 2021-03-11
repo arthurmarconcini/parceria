@@ -1,12 +1,13 @@
 header {
-    position: sticky !important;
-    top: 0;      
+    position: sticky;
+    top: 0; 
+    z-index: 2;
 }
-.navbar {
+.navbar {    
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #020201de;
+    background: #020201;
     padding: 0.5em 0;
 }
 

@@ -1,10 +1,16 @@
-
+#home {
+    height:90vh;
+    background:lightgrey;
+}
 #box1 {        
-    height: 90vh;
+    height:90vh;
+    background: rgb(250, 223, 166);
 }
 #box2 {
     height: 90vh;
+    background:lightgrey;
 }
 #box3 {
-    height: 90vh;         
+    height: 90vh;
+    background: rgb(250, 223, 166);       
 }
